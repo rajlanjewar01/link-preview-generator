@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("form").addEventListener("submit", function(e) {
       e.preventDefault();
-      var serverUrl = "https://link-preview-generator.herokuapp.com/link";
+      var serverUrl = "https://link-preview-generator.herokuapp.com/link/";
       var loadingElement = document.querySelector(".loading-container");
       var initMsgElement = document.querySelector(".init-message");
       var previewDataElement = document.querySelector(".preview-data");
